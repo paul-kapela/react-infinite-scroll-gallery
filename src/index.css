@@ -35,67 +35,19 @@ body::-webkit-scrollbar-thumb {
   height: 100vh;
 }
 
-.fa-primary {
-  color: #ff7eee;
-}
-
-.fa-secondary {
-  color: #df49a6;
-}
-
-.fa-primary,
-.fa-secondary {
-  transition: var(--transition-speed);
-}
-
-.my-masonry-grid {
+.masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
   margin-left: -2rem; /* gutter size offset */
   width: auto;
 }
-.my-masonry-grid_column {
+.masonry-grid_column {
   padding-left: 2rem; /* gutter size */
   background-clip: padding-box;
 }
 
 /* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+.masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
   margin-bottom: 2rem;
-}
-
-.rainbow-icon {
-  padding: 8em 9em;
-  display: inline-block;
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
-  color: rgba(0,0,0,0);
-  clip-path: path('M240 208v8c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V88c0-13.255 10.745-24 24-24h8v104c0 22.056 17.944 40 40 40h168zm48-40V40c0-13.255-10.745-24-24-24H72c-13.255 0-24 10.745-24 24v128c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24zM128 64c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24zm-48 72 27.757-27.757c2.343-2.343 6.142-2.343 8.486 0L136 128l67.758-67.757c2.343-2.343 6.142-2.343 8.486 0L256 104v56H80v-24z');
-
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
-}
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
 }

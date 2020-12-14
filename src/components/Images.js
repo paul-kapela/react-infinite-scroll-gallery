@@ -93,8 +93,8 @@ class Images extends Component {
           601: 3,
           600: 1
         }}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
+        className="masonry-grid"
+        columnClassName="masonry-grid_column"
       >
         {
           this.state.images.map((image, index) => {

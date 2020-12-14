@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import galleryIcon from '../svg/gallery.svg';
+import RainbowGalleryIcon from '../components/RainbowGalleryIcon';
 
 const AboutWrapper = styled.div`
   text-align: center;
@@ -19,20 +19,12 @@ const Title = styled.h1`
   transition: opcaity 300ms;
 `;
 
-const Icon = styled.img`
-  width: 25%;
-
-  color: rgba(0,0,0,0);
-`;
-
 function About() {
   return (
     <AboutWrapper>
       <Title>Galeria</Title>
 
-      <div style={{marginLeft: 'auto', marginRight: 'auto'}}>
-      <div className="rainbow-icon"></div>
-      </div>
+      <RainbowGalleryIcon/>
 
       <h2>Autor: Paweł Kapela</h2>
     </AboutWrapper>
