@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/gallery/static/css/main.ab5a1d4f.chunk.css",
-    "main.js": "/gallery/static/js/main.f65adb95.chunk.js",
-    "main.js.map": "/gallery/static/js/main.f65adb95.chunk.js.map",
-    "runtime-main.js": "/gallery/static/js/runtime-main.93c5d841.js",
-    "runtime-main.js.map": "/gallery/static/js/runtime-main.93c5d841.js.map",
-    "static/js/2.eaf07a5b.chunk.js": "/gallery/static/js/2.eaf07a5b.chunk.js",
-    "static/js/2.eaf07a5b.chunk.js.map": "/gallery/static/js/2.eaf07a5b.chunk.js.map",
-    "index.html": "/gallery/index.html",
-    "static/css/main.ab5a1d4f.chunk.css.map": "/gallery/static/css/main.ab5a1d4f.chunk.css.map",
-    "static/js/2.eaf07a5b.chunk.js.LICENSE.txt": "/gallery/static/js/2.eaf07a5b.chunk.js.LICENSE.txt",
-    "static/media/about.aaf6f015.svg": "/gallery/static/media/about.aaf6f015.svg",
-    "static/media/gallery.f7157866.svg": "/gallery/static/media/gallery.f7157866.svg"
+    "main.css": "/react-infinite-scroll-gallery/static/css/main.ab5a1d4f.chunk.css",
+    "main.js": "/react-infinite-scroll-gallery/static/js/main.f65adb95.chunk.js",
+    "main.js.map": "/react-infinite-scroll-gallery/static/js/main.f65adb95.chunk.js.map",
+    "runtime-main.js": "/react-infinite-scroll-gallery/static/js/runtime-main.00793081.js",
+    "runtime-main.js.map": "/react-infinite-scroll-gallery/static/js/runtime-main.00793081.js.map",
+    "static/js/2.1dbe7e6f.chunk.js": "/react-infinite-scroll-gallery/static/js/2.1dbe7e6f.chunk.js",
+    "static/js/2.1dbe7e6f.chunk.js.map": "/react-infinite-scroll-gallery/static/js/2.1dbe7e6f.chunk.js.map",
+    "index.html": "/react-infinite-scroll-gallery/index.html",
+    "static/css/main.ab5a1d4f.chunk.css.map": "/react-infinite-scroll-gallery/static/css/main.ab5a1d4f.chunk.css.map",
+    "static/js/2.1dbe7e6f.chunk.js.LICENSE.txt": "/react-infinite-scroll-gallery/static/js/2.1dbe7e6f.chunk.js.LICENSE.txt",
+    "static/media/about.aaf6f015.svg": "/react-infinite-scroll-gallery/static/media/about.aaf6f015.svg",
+    "static/media/gallery.f7157866.svg": "/react-infinite-scroll-gallery/static/media/gallery.f7157866.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.93c5d841.js",
-    "static/js/2.eaf07a5b.chunk.js",
+    "static/js/runtime-main.00793081.js",
+    "static/js/2.1dbe7e6f.chunk.js",
     "static/css/main.ab5a1d4f.chunk.css",
     "static/js/main.f65adb95.chunk.js"
   ]
